@@ -58,6 +58,13 @@ nav img:nth-of-type(1){
     }
 }
 
+@media screen and (max-width: 743px) {
+    .left-section {
+        /* width: 0 !important;
+        margin-top: 4rem !important; */
+    }
+}
+
 
 /* ===================================== */
 /* ============ Hero ==================== */
@@ -220,4 +227,52 @@ h3 > img {
     font-family: 'Fredoka One';
     font-weight: 300;
     font-size: 4rem;
+}
+
+@media screen and (max-width: 1075px) {
+    .right-section {
+        display: none;
+    }
+
+    .intro-section {
+        padding: 0rem 1rem;
+    }
+
+    .left-section {
+        width: inherit;
+        margin-top: 3rem;
+    }
+
+    .text{
+        width: initial;
+        margin-left: 0rem;
+        
+    }
+
+    .action-btns{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:633px) {
+    .sub-headlines > h5 > p {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+    .sub-headlines {
+        margin: 2rem 2rem;
+    }
+    .left-section h1:nth-of-type(1) {
+        font-size: 3.6rem;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    h3 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .action-btn{
+        font-size: 1rem;
+    }
 }
